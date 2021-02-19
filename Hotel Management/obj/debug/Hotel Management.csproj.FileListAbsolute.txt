@@ -1,0 +1,58 @@
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\bin\Debug\Hotel Management.exe.config
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel Management.csprojResolveAssemblyReference.cache
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Home.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Properties.Resources.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel Management.csproj.GenerateResource.Cache
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\bin\Debug\Hotel Management.exe
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\bin\Debug\Hotel Management.pdb
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel Management.exe
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel Management.pdb
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.AdminHome.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.AdminSettings.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.EmployeeHome.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ManagerHome.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ReceptionistHome.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.LastTwelveMonthsReport.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.MonthlyReport.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.UpdateReport.resources
+c:\users\shoaib haque\documents\visual studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.YearlyReport.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ReceptionistPasswordChange.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ManagerSettings.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.CustomerInfo.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Managers.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.RoomDetails.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.FoodCorner.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Services.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.EmployeeSettings.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.FoodDetails.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ServiceUpdate.resources
+C:\Users\SHOAIB HAQUE\Documents\Visual Studio 2012\Projects\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Task.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\bin\Debug\Hotel Management.exe.config
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel Management.exe
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel Management.pdb
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\bin\Debug\Hotel Management.exe
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\bin\Debug\Hotel Management.pdb
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel Management.csprojResolveAssemblyReference.cache
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.AdminHome.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.AdminSettings.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.CustomerInfo.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.EmployeeSettings.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.FoodCorner.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.FoodDetails.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Managers.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.EmployeeHome.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Home.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.LastTwelveMonthsReport.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ManagerHome.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ManagerSettings.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.MonthlyReport.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ReceptionistHome.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ReceptionistPasswordChange.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.RoomDetails.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Services.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.ServiceUpdate.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.Task.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.UpdateReport.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Presentation_Layer.YearlyReport.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel_Management.Properties.Resources.resources
+C:\Users\SHOAIB HAQUE\Downloads\HotelManagement\Hotel Management\obj\Debug\Hotel Management.csproj.GenerateResource.Cache
