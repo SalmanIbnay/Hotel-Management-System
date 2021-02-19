@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8C0A05C-A6A3-4BD5-9F0C-8006B500EE07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hotel_Management</RootNamespace>
+    <AssemblyName>Hotel Management</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business Logic Layer\Admin.cs" />
+    <Compile Include="Business Logic Layer\Employee.cs" />
+    <Compile Include="Business Logic Layer\Manager.cs" />
+    <Compile Include="Business Logic Layer\Receptionist.cs" />
+    <Compile Include="Data Access Layer\AdminData.cs" />
+    <Compile Include="Data Access Layer\Bill.cs" />
+    <Compile Include="Data Access Layer\Customer.cs" />
+    <Compile Include="Data Access Layer\CustomerData.cs" />
+    <Compile Include="Data Access Layer\EmployeeData.cs" />
+    <Compile Include="Data Access Layer\FoodData.cs" />
+    <Compile Include="Data Access Layer\ManagerData.cs" />
+    <Compile Include="Data Access Layer\ReceptionistData.cs" />
+    <Compile Include="Data Access Layer\RoomData.cs" />
+    <Compile Include="Data Access Layer\Service.cs" />
+    <Compile Include="Presentation Layer\AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\AdminSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\AdminSettings.Designer.cs">
+      <DependentUpon>AdminSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\CustomerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\CustomerInfo.Designer.cs">
+      <DependentUpon>CustomerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\EmployeeSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\EmployeeSettings.Designer.cs">
+      <DependentUpon>EmployeeSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\FoodCorner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\FoodCorner.Designer.cs">
+      <DependentUpon>FoodCorner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\FoodDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\FoodDetails.Designer.cs">
+      <DependentUpon>FoodDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Managers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Managers.Designer.cs">
+      <DependentUpon>Managers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\EmployeeHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\EmployeeHome.Designer.cs">
+      <DependentUpon>EmployeeHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\LastTwelveMonthsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\LastTwelveMonthsReport.Designer.cs">
+      <DependentUpon>LastTwelveMonthsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\ManagerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\ManagerHome.Designer.cs">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\ManagerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\ManagerSettings.Designer.cs">
+      <DependentUpon>ManagerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\MonthlyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\MonthlyReport.Designer.cs">
+      <DependentUpon>MonthlyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\ReceptionistHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\ReceptionistHome.Designer.cs">
+      <DependentUpon>ReceptionistHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\ReceptionistPasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\ReceptionistPasswordChange.Designer.cs">
+      <DependentUpon>ReceptionistPasswordChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\RoomDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\RoomDetails.Designer.cs">
+      <DependentUpon>RoomDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Services.Designer.cs">
+      <DependentUpon>Services.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\ServiceUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\ServiceUpdate.Designer.cs">
+      <DependentUpon>ServiceUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Task.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Task.Designer.cs">
+      <DependentUpon>Task.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\UpdateReport.Designer.cs">
+      <DependentUpon>UpdateReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\YearlyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\YearlyReport.Designer.cs">
+      <DependentUpon>YearlyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentation Layer\AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\AdminSettings.resx">
+      <DependentUpon>AdminSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\CustomerInfo.resx">
+      <DependentUpon>CustomerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\EmployeeSettings.resx">
+      <DependentUpon>EmployeeSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\FoodCorner.resx">
+      <DependentUpon>FoodCorner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\FoodDetails.resx">
+      <DependentUpon>FoodDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Managers.resx">
+      <DependentUpon>Managers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\EmployeeHome.resx">
+      <DependentUpon>EmployeeHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\LastTwelveMonthsReport.resx">
+      <DependentUpon>LastTwelveMonthsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\ManagerHome.resx">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\ManagerSettings.resx">
+      <DependentUpon>ManagerSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\MonthlyReport.resx">
+      <DependentUpon>MonthlyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\ReceptionistHome.resx">
+      <DependentUpon>ReceptionistHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\ReceptionistPasswordChange.resx">
+      <DependentUpon>ReceptionistPasswordChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\RoomDetails.resx">
+      <DependentUpon>RoomDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Services.resx">
+      <DependentUpon>Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\ServiceUpdate.resx">
+      <DependentUpon>ServiceUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Task.resx">
+      <DependentUpon>Task.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\UpdateReport.resx">
+      <DependentUpon>UpdateReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\YearlyReport.resx">
+      <DependentUpon>YearlyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
